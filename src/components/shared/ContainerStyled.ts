@@ -6,7 +6,8 @@ const ContainerStyled = styled.main`
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: radial-gradient(circle, #8a63ad57 1px, transparent 1px);
+  background-image: radial-gradient(circle, #553b98 0.5px, transparent 0.5px);
+  background-color: ${(props) => props.theme.colors.social};
   background-size: 20px 20px;
 `;
 
