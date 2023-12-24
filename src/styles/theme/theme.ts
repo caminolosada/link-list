@@ -3,10 +3,10 @@ import { DefaultTheme } from "styled-components";
 
 const theme: DefaultTheme = {
   colors: {
-    background: "fff",
-    social: "d9d9d9",
-    text: "000",
-    theme: "553b98",
+    background: "#fff",
+    social: "#d9d9d9",
+    text: "#000",
+    theme: "#553b98",
   },
   fonts: {
     primary: "IBM Plex Mono",
