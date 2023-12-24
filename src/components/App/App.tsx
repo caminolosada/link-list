@@ -1,5 +1,7 @@
+import ContainerStyled from "../shared/ContainerStyled";
+
 const App = (): JSX.Element => {
-  return <p>Hello world!</p>;
+  return <ContainerStyled />;
 };
 
 export default App;
