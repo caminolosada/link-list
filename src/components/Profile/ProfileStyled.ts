@@ -15,7 +15,7 @@ const ProfileStyled = styled.section<ProfileStyledProps>`
     &__name {
       color: ${(props) => props.theme.colors.theme};
       font-size: ${(props) => props.theme.fontSize.large};
-      font-weight: ${(props) => props.theme.fontWeight.medium};
+      font-weight: ${(props) => props.theme.fontWeight.semibold};
     }
 
     &__photo {
