@@ -1,10 +1,11 @@
+import LinkListStyled from "./LinkListStyled";
+
 const LinkList = (): React.ReactElement => {
   return (
-    <div className="list">
-      <ul>
-        <li>
+    <LinkListStyled className="list-container">
+      <ul className="list">
+        <li className="list__item">
           <a
-            className="list__cv"
             href="/Resume Camino Losada.pdf"
             target="_blank"
             rel="noopener noreferrer"
@@ -14,9 +15,8 @@ const LinkList = (): React.ReactElement => {
           </a>
         </li>
 
-        <li>
+        <li className="list__item">
           <a
-            className="list__mail"
             href="mailto:camino.losada.alonso@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -25,9 +25,8 @@ const LinkList = (): React.ReactElement => {
             <img alt="email icon" src="/mail.svg" />
           </a>
         </li>
-        <li>
+        <li className="list__item">
           <a
-            className="list__linkedin"
             href="https://www.linkedin.com/in/caminolosadadeveloper/"
             target="_blank"
             rel="noopener noreferrer"
@@ -36,7 +35,7 @@ const LinkList = (): React.ReactElement => {
             <img alt="linkedin icon" src="/linkedin.svg" />
           </a>
         </li>
-        <li>
+        <li className="list__item">
           <a
             className="list__github"
             href="https://github.com/caminolosada"
@@ -47,7 +46,7 @@ const LinkList = (): React.ReactElement => {
             <img alt="github icon" src="/github.svg" />
           </a>
         </li>
-        <li>
+        <li className="list__item">
           <a
             className="list__goodreads"
             href="https://www.goodreads.com/caminolosada"
@@ -59,7 +58,7 @@ const LinkList = (): React.ReactElement => {
           </a>
         </li>
       </ul>
-    </div>
+    </LinkListStyled>
   );
 };
 
