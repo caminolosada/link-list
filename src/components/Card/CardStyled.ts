@@ -6,6 +6,7 @@ const CardStyled = styled.article`
   flex-direction: column;
   position: relative;
   justify-content: center;
+  align-items: center;
   border-radius: 20px;
   padding: 40px;
   margin-top: 40px;
