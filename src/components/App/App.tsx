@@ -1,11 +1,16 @@
 import Card from "../Card/Card";
+import Footer from "../Footer/Footer";
 import ContainerStyled from "../shared/ContainerStyled";
+import AppStyled from "./AppStyled";
 
 const App = (): React.ReactElement => {
   return (
     <>
-      <ContainerStyled />
-      <Card />
+      <AppStyled>
+        <ContainerStyled />
+        <Card />
+        <Footer />
+      </AppStyled>
     </>
   );
 };
