@@ -17,7 +17,7 @@ In its development, user experience has been a priority, ensuring a responsive, 
 
 Currently, there is a demo hosted at the following link: https://caminolink.netlify.app/
 
-<img src="/screenshot.jpg">
+<img src="https://asset.cloudinary.com/dg1skxpqt/6fb78ce0e9f2efe1572ca3d28ef311b6">
 
 ## Technologies Used
 
