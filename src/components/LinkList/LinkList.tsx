@@ -11,7 +11,7 @@ const LinkList = (): React.ReactElement => {
             rel="noopener noreferrer"
           >
             Take a look at my cv
-            <img alt="cv icon" src="/cv.svg" />
+            <img alt="cv icon" src="/cv.svg" width="25" height="25" />
           </a>
         </li>
 
@@ -22,7 +22,7 @@ const LinkList = (): React.ReactElement => {
             rel="noopener noreferrer"
           >
             Send me an email
-            <img alt="email icon" src="/mail.svg" />
+            <img alt="email icon" src="/mail.svg" width="24" height="17" />
           </a>
         </li>
         <li className="list__item">
@@ -32,7 +32,12 @@ const LinkList = (): React.ReactElement => {
             rel="noopener noreferrer"
           >
             More about me
-            <img alt="linkedin icon" src="/linkedin.svg" />
+            <img
+              alt="linkedin icon"
+              src="/linkedin.svg"
+              width="24"
+              height="24"
+            />
           </a>
         </li>
         <li className="list__item">
@@ -43,7 +48,7 @@ const LinkList = (): React.ReactElement => {
             rel="noopener noreferrer"
           >
             How do I code?
-            <img alt="github icon" src="/github.svg" />
+            <img alt="github icon" src="/github.svg" width="24" height="24" />
           </a>
         </li>
         <li className="list__item">
@@ -54,7 +59,12 @@ const LinkList = (): React.ReactElement => {
             rel="noopener noreferrer"
           >
             When I&apos;m not coding
-            <img alt="goodreads icon" src="/goodreads.svg" />
+            <img
+              alt="goodreads icon"
+              src="/goodreads.svg"
+              width="16"
+              height="24"
+            />
           </a>
         </li>
       </ul>
