@@ -5,7 +5,11 @@ const LinkList = (): React.ReactElement => {
     <LinkListStyled className="list-container">
       <ul className="list">
         <li className="list__item">
-          <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
+          <a
+            href="/Resume-Camino-Losada.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Take a look at my cv
             <img alt="cv icon" src="/cv.svg" width="25" height="25" />
           </a>
